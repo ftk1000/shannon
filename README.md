@@ -15,6 +15,15 @@
 * PART IV: (pp 41-47)
 * PART V: (pp 47-55)
 
+
+# Prompt
+
+```
+give me a summary, key results, intuition behind them and a few applications for PART I: DISCRETE NOISELESS SYSTEMS (pp 1-18)
+'6'. CHOICE, UNCERTAINTY AND ENTROPY
+'7'. THE ENTROPY OF AN INFORMATION SOURCE
+'8'. REPRESENTATION OF THE ENCODING AND DECODING OPERATIONS
+```
 --------
 
             …or create a new repository on the command line
