@@ -142,3 +142,17 @@ Two quick ways to see it:
 
 Intuition: $H(X)+H(Y)$ “counts” the uncertainty of each variable separately; if $X$ and $Y$ are dependent, some of that uncertainty overlaps. The joint $H(X,Y)$ counts the “net” uncertainty once, so it can’t exceed the sum.
 
+
+# Prompt X-4
+
+```
+explain this sentence "These probabilities are known but that is all we know concerning which event will occur." on page 10.
+```
+
+He’s setting up the *scope of knowledge* for the entropy definition. Read it as:
+
+* We’re given a single draw from a finite set of outcomes with known probabilities $p_1,\dots,p_n$.
+* Beyond that vector, we have **no side information**: no hints about which outcome will be realized, no hidden variables, correlations, or structure to exploit.
+* Therefore, any “uncertainty/choice” measure $H$ must depend **only** on the probability vector (and be agnostic to labels or stories about the outcomes). That’s why he immediately lists general axioms for $H(p_1,\dots,p_n)$ and later derives $H=-K\sum_i p_i\log p_i$.  
+
+A quick contrast helps: if you *did* know extra information (say, a clue rules out half the outcomes), the relevant uncertainty would be a **conditional** entropy using the updated probabilities—smaller than $H$ computed from the original $p_i$ because you now know more. Shannon’s sentence says we’re **not** in that conditional case yet; we’re defining the baseline measure from the bare probabilities alone. 
