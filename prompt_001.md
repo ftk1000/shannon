@@ -70,3 +70,37 @@ Here’s a tight, working-level digest of Shannon’s Part I, §§6–8.
 5. **Model checking for sources.** The $H'=mH$ identity links symbol-rate and entropy-rate; e.g., for telemetry/log streams you can compare measured throughput to estimated $H$ to detect anomalies (unexpected structure) or to size channels. 
 
 If you want, I can add one-page cheat sheets with the exact statements (Theorems 2–8) and a tiny Python demo that empirically verifies the typical-set law for a Markov source.
+
+
+# Prompt X
+
+```
+explain formulas in bullet 3 on top of page 12: formula for H(x,y) and formula for H(x) below it on page 12.
+```
+
+Here’s what those two formulas are saying and how to read them.
+
+### 1) The joint-entropy formula $H(x,y)$
+
+* **Formula:** $$H(x,y)=-\sum_{i,j} p(i,j),\log p(i,j).$$
+* **Meaning:** You have two discrete random variables $x$ and $y$. For each pair of outcomes $(i,j)$, take its joint probability $p(i,j)$, multiply by $\log p(i,j)$, sum over all pairs, and put a minus sign in front. That total is the **uncertainty in the pair $(x,y)$ taken together**. It’s the natural extension of the single-variable entropy to the 2-D case. 
+
+### 2) The marginal-entropy formula $H(x)$ written via the joint
+
+* **Formula as printed:** $$H(x)=-\sum_{i,j} p(i,j),\log!\Big(\sum_{j} p(i,j)\Big).$$
+* **What’s going on:** Inside the log you see $\sum_{j} p(i,j)$, which is just the **marginal** $p(i)$ (add the joint over all $y=j$ to get the probability that $x=i$). So the line is simply a notational way to express $H(x)$ **using the joint table**:
+  $$\sum_{j} p(i,j)=p(i)\quad\Longrightarrow\quad H(x)=-\sum_{i,j} p(i,j),\log p(i).$$
+  Now collapse the redundant sum over $j$ (since $\sum_j p(i,j)=p(i)$):
+  $$H(x)=-\sum_i \big(\sum_j p(i,j)\big)\log p(i)=-\sum_i p(i)\log p(i),$$
+  which is the familiar single-variable entropy. Shannon writes it in the joint form to keep all three lines ($H(x,y)$, $H(x)$, $H(y)$) visually parallel on the same footing. 
+
+---
+
+### Quick intuition
+
+* $H(x,y)$ measures the average “surprise” when you observe the **pair**.
+* $H(x)$ in that display is the same old $-\sum_i p(i)\log p(i)$, just rewritten so you can compute it **directly from the joint table** without first forming $p(i)$.
+
+For context on the very next steps on that page (chain rule and the subadditivity inequality), see the identities right below, where Shannon derives $H(x,y)=H(x)+H_x(y)$ and $H(x,y)\le H(x)+H(y)$.  
+
+
