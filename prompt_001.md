@@ -1,5 +1,16 @@
 2025.11.05
 
+# Prompt X-1
+
+* https://chatgpt.com/c/690b80fd-9d54-8331-bba9-1498e7ec09f9
+  
+```
+give me a summary, key results, intuition behind them and a few applications for
+PART I: DISCRETE NOISELESS SYSTEMS (pp 1-18)
+'6'. CHOICE, UNCERTAINTY AND ENTROPY
+'7'. THE ENTROPY OF AN INFORMATION SOURCE
+'8'. REPRESENTATION OF THE ENCODING AND DECODING OPERATIONS
+```
 
 Here’s a tight, working-level digest of Shannon’s Part I, §§6–8.
 
@@ -72,7 +83,7 @@ Here’s a tight, working-level digest of Shannon’s Part I, §§6–8.
 If you want, I can add one-page cheat sheets with the exact statements (Theorems 2–8) and a tiny Python demo that empirically verifies the typical-set law for a Markov source.
 
 
-# Prompt X
+# Prompt X-2
 
 ```
 explain formulas in bullet 3 on top of page 12: formula for H(x,y) and formula for H(x) below it on page 12.
@@ -103,4 +114,31 @@ Here’s what those two formulas are saying and how to read them.
 
 For context on the very next steps on that page (chain rule and the subadditivity inequality), see the identities right below, where Shannon derives $H(x,y)=H(x)+H_x(y)$ and $H(x,y)\le H(x)+H(y)$.  
 
+
+# Prompt X-3
+
+* https://chatgpt.com/c/690b80fd-9d54-8331-bba9-1498e7ec09f9
+  
+```
+why is it easy to see that H(x,y) \le H(x) + H(y)?
+```
+
+Short answer: because “knowing things can’t increase uncertainty.”
+
+Two quick ways to see it:
+
+1. Chain rule + “conditioning reduces entropy”
+
+* Chain rule: $$H(X,Y)=H(X)+H(Y\mid X).$$
+* Conditioning never increases entropy: $$H(Y\mid X)\le H(Y).$$
+  Combine them: $$H(X,Y)=H(X)+H(Y\mid X)\le H(X)+H(Y).$$
+  Equality iff $X$ and $Y$ are independent, in which case $H(Y\mid X)=H(Y)$.
+
+2. Mutual information is nonnegative
+
+* Define $$I(X;Y)=H(X)+H(Y)-H(X,Y)\ge 0.$$
+  Rearrange: $$H(X,Y)\le H(X)+H(Y).$$
+  Here $I(X;Y)=0$ iff $X$ and $Y$ are independent.
+
+Intuition: $H(X)+H(Y)$ “counts” the uncertainty of each variable separately; if $X$ and $Y$ are dependent, some of that uncertainty overlaps. The joint $H(X,Y)$ counts the “net” uncertainty once, so it can’t exceed the sum.
 
