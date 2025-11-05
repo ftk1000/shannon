@@ -6,7 +6,7 @@
 
 # [A Mathematical Theory of Communication, 1948](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
 * PART I: DISCRETE NOISELESS SYSTEMS (pp 1-18)
-  - 6. CHOICE, UNCERTAINTY AND ENTROPY
+  * "6. CHOICE, UNCERTAINTY AND ENTROPY"
   * 7. THE ENTROPY OF AN INFORMATION SOURCE
   * 8. REPRESENTATION OF THE ENCODING AND DECODING OPERATIONS 
 * PART II: THE DISCRETE CHANNEL WITH NOISE (pp 18-32)
