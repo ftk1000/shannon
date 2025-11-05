@@ -156,3 +156,18 @@ He’s setting up the *scope of knowledge* for the entropy definition. Read it a
 * Therefore, any “uncertainty/choice” measure $H$ must depend **only** on the probability vector (and be agnostic to labels or stories about the outcomes). That’s why he immediately lists general axioms for $H(p_1,\dots,p_n)$ and later derives $H=-K\sum_i p_i\log p_i$.  
 
 A quick contrast helps: if you *did* know extra information (say, a clue rules out half the outcomes), the relevant uncertainty would be a **conditional** entropy using the updated probabilities—smaller than $H$ computed from the original $p_i$ because you now know more. Shannon’s sentence says we’re **not** in that conditional case yet; we’re defining the baseline measure from the bare probabilities alone. 
+
+# Promot X-5
+
+```explain the very next sentence on the same page: "Can we find a measure of how much “choice” is involved in the selection of the event or of how uncertain we are of the outcome?"```
+
+He’s posing the core *definition problem* for information: given only a probability vector $p_1,\dots,p_n$ for a one-shot event, can we assign a single number that (i) reflects how many alternatives are “on the table” and (ii) how unpredictable the actual outcome is? In other words, we want a functional of the probabilities—not of labels or meanings—that quantifies “choice/uncertainty” for that draw. This is the question that leads directly to specifying reasonable axioms (continuity, more uncertainty with more equally likely options, and additivity for staged choices) and, from them, to the unique form $H(p)=-K\sum_i p_i\log p_i$.   
+
+A quick feel:
+
+* If one outcome has probability 1, there’s no “choice,” so the measure should be 0.
+* If all $n$ outcomes are equally likely, more options should mean more “choice,” so the measure should rise with $n$ (and do so smoothly).
+* If you make a decision in stages (first a coarse choice, then a refinement), the total “uncertainty” should add up appropriately.
+
+Those desiderata are exactly what Shannon formalizes right after that sentence, culminating in entropy as the answer to his question. 
+
