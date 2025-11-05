@@ -157,7 +157,7 @@ He’s setting up the *scope of knowledge* for the entropy definition. Read it a
 
 A quick contrast helps: if you *did* know extra information (say, a clue rules out half the outcomes), the relevant uncertainty would be a **conditional** entropy using the updated probabilities—smaller than $H$ computed from the original $p_i$ because you now know more. Shannon’s sentence says we’re **not** in that conditional case yet; we’re defining the baseline measure from the bare probabilities alone. 
 
-# Promot X-5
+# Prompt X-5
 
 ```explain the very next sentence on the same page: "Can we find a measure of how much “choice” is involved in the selection of the event or of how uncertain we are of the outcome?"```
 
@@ -170,4 +170,22 @@ A quick feel:
 * If you make a decision in stages (first a coarse choice, then a refinement), the total “uncertainty” should add up appropriately.
 
 Those desiderata are exactly what Shannon formalizes right after that sentence, culminating in entropy as the answer to his question. 
+
+
+# Prompt X-
+
+# Prompt X-
+
+# Prompt X-
+
+# Prompt X-
+
+# Prompt X-
+
+# Prompt X-
+
+# Prompt X-
+
+# Prompt X-
+
 
