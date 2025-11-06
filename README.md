@@ -2,6 +2,11 @@
 
 2025.11.05
 
+# [Nuggets](https://youtu.be/we7T7NqTrlU?t=1857)
+* [Entropy]() $H=-\sum p \log p$
+* [Data Compt](https://youtu.be/we7T7NqTrlU?t=1857)
+* [Err Corr]()
+
 
 
 # [A Mathematical Theory of Communication, 1948](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
