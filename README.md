@@ -30,6 +30,11 @@ give me a summary, key results, intuition behind them and a few applications for
 '7'. THE ENTROPY OF AN INFORMATION SOURCE
 '8'. REPRESENTATION OF THE ENCODING AND DECODING OPERATIONS
 ```
+
+
+
+# [Nokia Bell Labs](https://www.youtube.com/@NokiaBellLabs)
+* [Future Impossible](https://youtu.be/HSoog0OqgV0?si=Z5yKdsSdIDWzH3cG)
 --------
 
             …or create a new repository on the command line
