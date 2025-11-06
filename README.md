@@ -3,7 +3,7 @@
 2025.11.05
 
 # [Nuggets](https://youtu.be/we7T7NqTrlU?t=1857)
-* [Entropy]() $H=-\sum p \log p$
+* [Entropy]() $H=-\sum p \ \log p$
 * [Data Compt](https://youtu.be/we7T7NqTrlU?t=1857)
 * [Err Corr]()
 
