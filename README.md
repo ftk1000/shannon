@@ -35,7 +35,9 @@ give me a summary, key results, intuition behind them and a few applications for
 
 # [Nokia Bell Labs](https://www.youtube.com/@NokiaBellLabs)
 * [Future Impossible](https://youtu.be/HSoog0OqgV0?si=Z5yKdsSdIDWzH3cG)
-* [Claude Shannon at MIT: The best master's thesis in history | Neil Gershenfeld and Lex Fridman](https://www.youtube.com/watch?v=kP0zi5lX-Fo)
+* [Neil Gershenfeld and Lex Fridman](https://youtu.be/YDjOS0VHEr4?t=419) ------  [Claude Shannon at MIT: The best master's thesis in history | Neil Gershenfeld and Lex Fridman](https://www.youtube.com/watch?v=kP0zi5lX-Fo)
+
+
 --------
 
             …or create a new repository on the command line
