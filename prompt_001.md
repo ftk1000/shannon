@@ -177,6 +177,14 @@ Those desiderata are exactly what Shannon formalizes right after that sentence, 
 ```explain theorem 3 on page 13. provide intuition and interpretation please.
 ```
 
+
+```
+Explain theorem 3 on page 13 from Shannon's famous paper  "A Mathematical Theory of Communication":
+https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf.
+Provide intuition and interpretation please.
+```
+
+
 Here’s Theorem 3 in plain terms, plus the “why it’s true” intuition and how to use it.
 
 # What Theorem 3 says (Shannon, p. 13)
