@@ -1,4 +1,15 @@
+
+# Prompt
+
+
+Explain theorem 3 on page 13 from Shannon's famous paper  "A Mathematical Theory of Communication":  
+* https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf.
+
+Provide intuition and interpretation please.
+
 * https://claude.ai/chat/fbf18cda-2f7f-41e1-aa30-5720b6e3eeae
+  
+--------------
 
 I'll fetch Shannon's paper and examine Theorem 3 on page 13 for you.I'll examine Theorem 3 from page 13 of Shannon's paper and provide a detailed explanation with intuition.
 
