@@ -1,3 +1,12 @@
+2025.11.15
+* https://chatgpt.com/s/t_691a296461e8819195ad758f4345fdc9
+* https://www.overleaf.com/project/691a2905afe3fb90dc189825
+* https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
+* https://github.com/ftk1000/math/blob/main/latex_office_etc.md
+* overleaf.com
+* https://papeeria.com/signup
+* https://crixet.com/
+  
 2025.11.09
 
 # Prompt
